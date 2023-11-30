@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
+
     <h1>Comparative Analysis of YOLOv8 and YOLOv5 Model Performance in Object Detection Project</h1>
     
     <h2>Overview</h2>
@@ -56,6 +52,4 @@
     </ol>
 
     <p>Feel free to contribute or suggest improvements to this project. Your inputs are highly appreciated!</p>
-</body>
-</html>
 
