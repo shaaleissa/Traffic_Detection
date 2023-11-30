@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>YOLOv8 vs YOLOv5 Object Detection Analysis</title>
 </head>
 <body>
     <h1>Comparative Analysis of YOLOv8 and YOLOv5 Model Performance in Object Detection Project</h1>
