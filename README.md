@@ -1,24 +1,62 @@
-# COMPARATIVE ANALYSIS OF YOLOV8 AND YOLOV5 MODEL PERFORMANCE IN OBJECT DETECTION PROJECT
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YOLOv8 vs YOLOv5 Object Detection Analysis</title>
+</head>
+<body>
+    <h1>Comparative Analysis of YOLOv8 and YOLOv5 Model Performance in Object Detection Project</h1>
+    
+    <h2>Overview</h2>
+    <p>This repository provides a comprehensive comparison between YOLOv8 and YOLOv5 models in the realm of object detection. It includes various Jupyter notebooks that detail the processes of detection, training, evaluation, and data preprocessing.</p>
 
-This Repository contains 4 directories
+    <h2>Repository Structure</h2>
+    <h3>Notebooks Directory</h3>
+    <p>This directory is organized into several subdirectories, each containing Jupyter notebooks for specific tasks:</p>
 
-<h3> - In the notebooks directory, there is: </h3>
-      - Detection directory
-          which contains 2 Jupyter notebooks:
-                - For YOLOv5 detection
-                - For YOLOv8 detection
-      - Training and evaluation directory
-          which contains 2 Jupyter notebooks:
-                - For YOLOv5 training and evaluation
-                - For YOLOv8 training and evaluation
-      - Jupyter notebook named 'data_preprocessing' which contains the exploratory data analysis
-   <h3>- In the predict directory, there is:</h3>
-      The result of an object detection experiment with both YOLOv5 and YOLOv8
-   <h3>- In the models directory, there is:</h3>
-      The best weights of both the YOLOv5 and YOLOv8 models trained on custom data
-  <h3>- In the images directory, there is:</h3> 
-      The images used to conduct the object detection experiments 
+    <h4>Detection Directory</h4>
+    <ul>
+        <li>YOLOv5_detection.ipynb</li>
+        <li>YOLOv8_detection.ipynb</li>
+    </ul>
+    <p>These notebooks are dedicated to object detection using YOLOv5 and YOLOv8 models, respectively.</p>
 
-<h2>To reuse the code</h2>
-- The training and evalaution was ran using Kaggle notebooks
-- The detection can be ran locally as long as the weights are saved in the models directory</h2>
+    <h4>Training and Evaluation Directory</h4>
+    <ul>
+        <li>YOLOv5_training_evaluation.ipynb</li>
+        <li>YOLOv8_training_evaluation.ipynb</li>
+    </ul>
+    <p>These notebooks cover the training and evaluation phases for both YOLOv5 and YOLOv8 models.</p>
+
+    <h4>Data Preprocessing</h4>
+    <ul>
+        <li>data_preprocessing.ipynb</li>
+    </ul>
+    <p>Contains the exploratory data analysis and preprocessing steps.</p>
+
+    <h3>Predict Directory</h3>
+    <p>Contains results from object detection experiments using both YOLOv5 and YOLOv8 models.</p>
+
+    <h3>Models Directory</h3>
+    <p>Stores the best-performing weights for both YOLOv5 and YOLOv8 models, trained on custom datasets.</p>
+
+    <h3>Images Directory</h3>
+    <p>Includes all images utilized in the object detection experiments.</p>
+
+    <h2>Usage Instructions</h2>
+    <ul>
+        <li>Training and Evaluation: The training and evaluation processes were conducted using Kaggle notebooks. Ensure you have the necessary environment to run these notebooks.</li>
+        <li>Detection: The detection notebooks can be run locally, provided that the model weights are placed in the models directory.</li>
+    </ul>
+
+    <h2>Getting Started</h2>
+    <ol>
+        <li>Clone the repository.</li>
+        <li>Ensure you have Jupyter Notebook installed, or use Kaggle notebooks for training and evaluation purposes.</li>
+        <li>For detection tasks, download the pre-trained weights and place them in the models directory.</li>
+        <li>Run the notebooks to perform detection, training, evaluation, and data preprocessing.</li>
+    </ol>
+
+    <p>Feel free to contribute or suggest improvements to this project. Your inputs are highly appreciated!</p>
+</body>
+</html>
+
