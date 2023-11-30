@@ -18,3 +18,7 @@ This Repository contains 4 directories
       The best weights of both the YOLOv5 and YOLOv8 models trained on custom data
   <h3>- In the images directory, there is:</h3> 
       The images used to conduct the object detection experiments 
+
+<h2>To reuse the code</h2>
+<h2>The training and evalaution was ran using Kaggle notebooks</h2>
+<h2>The detection can be ran locally as long as the weights are saved in the models directory</h2>
